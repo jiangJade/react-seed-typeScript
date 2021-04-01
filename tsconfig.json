@@ -5,7 +5,7 @@
     "module": "esnext",
     "target": "es5",
     "lib": [
-      "es6",
+      "esnext",
       "dom"
     ],
     "sourceMap": true,
@@ -13,6 +13,7 @@
     "jsx": "react",
     "experimentalDecorators": true,
     "moduleResolution": "node",
+    "strict": true, // 启用所有严格类型检查选项
     "rootDir": "./src",
     "forceConsistentCasingInFileNames": true,
     "emitDecoratorMetadata": true,
@@ -25,7 +26,8 @@
     "noUnusedLocals": true
   },
   "include": [
-    "src"
+    "src/**/*",
+    "@types/**/*"
   ],
   "lib": [
     "dom",

@@ -105,7 +105,6 @@ const webpackCommonConfig = {
         }
     },
     plugins: [
-        
         new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /zh-cn/), // 指定moment加载中文
         // 主页面入口index.html
         new HtmlWebpackPlugin({
@@ -115,7 +114,7 @@ const webpackCommonConfig = {
         new ZipWebpackPlugin ({
             path: path.join(__dirname, '../dist'),
             filename: 'reactDist.zip'
-        })
+        }),
     ]
 };
 
