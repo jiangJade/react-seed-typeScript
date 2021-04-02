@@ -1,5 +1,6 @@
 import React, { useState, useCallback, memo } from 'react';
 import App from './reactRenderRules/index';
+import { Test1 } from './reactHooks/test1';
 import styles from './index.scss'
 
 interface HYButtonProps {
@@ -37,6 +38,10 @@ export default function CallbackHookDemo02() {
       <HYButton title="btn2" increment={increment2} count={count} />
       <button onClick={e => setShow(!show)}>show切换</button>
       <App />
+
+      <div className={styles.content}>
+        <Test1 />
+      </div>
     </div>
   )
 }
