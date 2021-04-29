@@ -4,6 +4,7 @@ import { CustomTable } from './customTable';
 import { useTableData } from './logic';
 
 const App = (props: CustomHooksTableProps) => {
+    
     const { feilds = [], serviceName } = props;
     const { onSearch, onFreshPage, tableProps } = useTableData(serviceName);
     return (

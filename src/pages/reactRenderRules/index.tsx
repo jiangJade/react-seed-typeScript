@@ -12,7 +12,7 @@ function Son(props: SonProps) {
 
 function Parent(props: any) {
   const [count, setCount] = React.useState(0);
-console.log(44, props);
+  console.log(44, props);
   return (
     <div>
       <div onClick={() => { setCount(count + 1) }}>count:{count}</div>
