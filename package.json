@@ -48,7 +48,7 @@
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "postcss": "^7.0.2",
+    "postcss": "^8.2.10",
     "postcss-filter-plugins": "^3.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-sassy-mixins": "^2.1.0",
